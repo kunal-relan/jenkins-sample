@@ -1,9 +1,9 @@
-package rafJenkins;
+package functionalAreaProcessOrder;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class rafhelloworld {
+public class FunctionalArea_ProcessorOrderTests {
 	
 	private static String getHelloWorld() {
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ public class rafhelloworld {
 
 	@Test
 	public void testPrintHelloWorld() {
-		System.out.println("Check if hello world matches");
+		System.out.println("I belong to Functional Area Process Order Tests Suite");
 		Assert.assertEquals(getHelloWorld(), "Hello World");
 
 	}

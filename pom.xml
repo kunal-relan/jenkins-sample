@@ -4,8 +4,8 @@
 	<groupId>com.raf</groupId>
 	<artifactId>rafJenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
 	
+	<build>	
 	<plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
@@ -19,6 +19,9 @@
 		</plugin>
 	</plugins>
 	</build>
+	
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>

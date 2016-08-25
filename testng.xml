@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Automation Test">
-<test name="raftests">
-
-
-<classes >
-	<class name="rafJenkins.rafhelloworld"/>
-
-</classes>
-
-
-</test>
-
-
-
-
+<suite name= "TestSuite">
+	<test name="Regression">
+		<classes>
+			<class name="rafJenkins.rafhelloworld"/>			
+		</classes>
+	</test>
+		<test name="BVT-Tests">
+		<classes>
+			<class name="rafJenkins.rafhelloworld"/>			
+		</classes>
+	</test>
+		<test name="Priority1Cases">
+		<classes>
+			<class name="rafJenkins.rafhelloworld"/>			
+		</classes>
+	</test>
+		<test name="Functional Area-Process Order">
+		<classes>
+			<class name="rafJenkins.rafhelloworld"/>			
+		</classes>
+	</test>
 </suite>
